@@ -1,0 +1,101 @@
+{
+    "general_queries": [
+        "What volunteer efforts are currently active for {event}?",
+        "Where can displaced people find emergency housing?",
+        "How are businesses and local economies affected by {event}?",
+        "What medical services are available for affected individuals?",
+        "Are there any missing persons reports related to {event}?",
+        
+        "Are hospitals and medical facilities operational after {event}?",
+        "Which communication networks (internet, mobile) are disrupted due to {event}?",
+        "Are ATMs and banks functioning after {event}?",
+        "Are gas stations open and accessible during {event}?",
+        "How is public transportation affected by {event}?",
+
+        "What emergency numbers should people call for help during {event}?",
+        "Are there any security risks or criminal activities occurring due to {event}?",
+        "What actions are being taken by law enforcement to ensure safety during {event}?",
+        "Are evacuation orders still in place or have they been lifted?",
+        "Where are the nearest first-aid stations for those affected by {event}?",
+
+        "What misinformation or false reports are spreading about {event}?",
+        "How are international organizations responding to {event}?",
+        "What hashtags are trending on social media regarding {event}?",
+        "How is the general public reacting to {event} on social media?",
+        "What news outlets are reporting on {event} and what are they saying?"
+    ],
+    "event_specific_queries": {
+        "Tornado": [
+            "What is the Fujita scale rating for the tornado in {event}?",
+            "How long did the tornado stay on the ground during {event}?",
+            "What was the path length and width of the tornado?",
+            "Are there any reports of multiple tornadoes forming during {event}?",
+            "What was the estimated wind speed of the tornado?",
+            "How many structures were completely destroyed due to {event}?",
+            "Are meteorologists predicting more tornadoes following {event}?",
+            "What emergency shelters are open specifically for tornado victims?",
+            "How has debris impacted rescue operations for {event}?",
+            "How many tornado warnings were issued before {event}?"
+        ],
+        "Wildfire": [
+            "What percentage of the wildfire is contained in {event}?",
+            "How many firefighters are currently battling the wildfire?",
+            "Is the wildfire spreading towards residential areas in {event}?",
+            "What are the air quality conditions due to smoke from {event}?",
+            "What measures are in place to prevent further wildfire outbreaks?",
+            "How many acres have burned due to {event}?",
+            "What weather conditions are affecting the wildfire's spread?",
+            "Where are the main evacuation routes for people affected by {event}?",
+            "Are there any power outages due to the wildfire?",
+            "How are animals and livestock being evacuated from {event}?"
+        ],
+        "Hurricane": [
+            "What is the category of the hurricane impacting {event}?",
+            "Has a storm surge been observed during {event}?",
+            "What is the maximum sustained wind speed recorded for {event}?",
+            "How far inland is flooding occurring due to {event}?",
+            "What is the estimated cost of damages from {event}?",
+            "Have there been any reported levee breaches due to {event}?",
+            "What areas were under mandatory evacuation for {event}?",
+            "Are there reports of looting or crime during {event}?",
+            "What is the expected recovery time for communities affected by {event}?",
+            "Are there any tornadoes forming due to the hurricane?"
+        ],
+        "Flood": [
+            "Which areas are most affected by flooding during {event}?",
+            "What is the water level rise in the most impacted locations?",
+            "Are there ongoing rescue operations for people trapped in floodwaters?",
+            "How has the flood affected drinking water supplies in {event}?",
+            "What is the estimated damage to infrastructure due to {event}?",
+            "Which roads and bridges have been closed due to flooding?",
+            "What emergency measures are in place to prevent further flooding?",
+            "Are any dams at risk of overflowing or failure due to {event}?",
+            "What is the government response to the flooding crisis?",
+            "Are there any health risks associated with stagnant floodwaters in {event}?"
+        ],
+        "Storm": [
+            "How much rainfall has been recorded in {event}?",
+            "What is the risk of landslides due to heavy rain from {event}?",
+            "How strong are the wind speeds in the affected areas?",
+            "Which transportation services have been disrupted due to {event}?",
+            "Are power outages widespread due to the storm?",
+            "What areas are under evacuation orders due to flooding from {event}?",
+            "Are storm shelters available for displaced individuals?",
+            "What emergency warnings have been issued due to {event}?",
+            "How long is the storm expected to last?",
+            "What government assistance is being provided to those affected by {event}?"
+        ],
+        "Accident": [
+            "What caused the explosion during {event}?",
+            "How many casualties have been reported due to {event}?",
+            "What buildings and infrastructure were destroyed in {event}?",
+            "Are authorities investigating the cause of {event}?",
+            "What toxic chemicals were released due to {event}?",
+            "Has the air quality been affected by {event}?",
+            "Are there any ongoing evacuation efforts due to {event}?",
+            "What is the government response to {event}?",
+            "What is the estimated financial loss caused by {event}?",
+            "How are medical teams handling injured victims of {event}?"
+        ]
+    }
+}
