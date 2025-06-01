@@ -6,13 +6,16 @@
 
 <sup>1</sup>Politecnico di Torino, Italy
 
+<a href="https://arxiv.org/abs/2408.04523"><img src='https://img.shields.io/badge/MDPI-MultiStage%20Paper-blue?logo=openaccess' alt='Paper PDF'></a>
 </div>
 
 This paper introduces a novel multi-stage text retrieval framework to enhance information retrieval during crises. Our framework employs a novel **three-stage extractive pipeline** where (1) a **topic modeling** component filters candidates based on thematic relevance, (2) an initial **high-recall lexical retriever** identifies a broad candidate set, and (3) a **dense retriever** reranks the remaining documents. **Existing approaches strongly rely on the power of large language models. However, the use of large language models limits the scalability of the retrieval procedure and may introduce hallucinations.** Our sequential approach accelerates the search process by 5% compared to the use of a single-stage based on a dense retrieval approach.
 
-### Getting Started
+## Getting Started
 
 Install the dependencies of the *requirements.txt* file.
+
+You can find the additional queries and the mapping with the events in the *queries* folder.
 
 ## License
 
